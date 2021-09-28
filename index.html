@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exercise</title>
+    <meta name="description" content="A simple HTML page">
+<style>
+body {
+  margin: 30;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+
+}
+
+p {
+	display: block;
+	align-content: right;
+  	margin-bottom: 1em;
+  	margin-left: 35px;
+  	margin-right: 5px;
+  	padding-left:10px; 
+  	color:white;
+  	line-height: 1.2;
+  	text-align: left;
+}
+
+
+.container {
+	align-items: center;
+	padding-bottom: 20px;
+
+}
+
+.responsive {
+	text-align: center;
+	max-width:450px;
+	height:auto;
+    float: left;
+	border: 9px solid #FFFFFF;
+	border-radius: 10px;
+	margin-right: 20px;
+}
+
+h1 {
+	margin-top: 50px;
+	color:white;
+	font-size: 60px;
+}
+
+.textbox{
+	background-color: #3f0e4e;
+	border-radius: 30px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	width:580px;
+	height:140px;
+	margin:10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+.button {
+	position: relative;
+	background-color: #ee3465;
+	border-radius: 8px;
+	border: none;
+	color: white;
+	padding: 15px 38px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.button2 {
+	position: relative;
+	background-color: white;
+	border-radius: 8px;
+	border: none;
+	color: black;
+	font-weight: bold;
+	padding: 20px 50px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.girl {
+	max-width:20%;
+	background-color: #FFFFFF;
+	height:auto;
+	border-radius: 50%;
+	float:left;
+	margin-right: 10px;
+	margin-left: 20px;
+	margin-top: 10px;
+	position: relative;
+	
+}
+.box{
+	position: absolute;
+	width: 200px;
+    height: 200px;
+    background: white;
+    top: 40px;
+    left: -35px;
+
+}
+
+.second{
+	background-color: #731f7f;
+	width: 100%
+}
+
+.first{
+	height:400px;
+	width:900px;
+
+}
+
+.h2{
+	font-size: 70px;
+	color: white;
+	align-content: center;
+
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+
+  .row {
+  	width:100%;
+  }
+
+  .first{
+  	width:100%;
+  	height:100%;
+  	padding-bottom: 10px;
+  }
+
+  .textbox{
+  	width:90%;
+  }
+
+  .container{
+  	width:100%
+  	height:100%;
+  }
+
+}
+
+</style>    
+  </head>
+  <!-- The rest of your HTML code is here -->
+<body>
+	<center>
+	<section class="first">
+		<img src="https://i.pinimg.com/564x/ab/5b/1d/ab5b1d9c1bb06519c965dc87bffb0e5a.jpg" alt="header rocket" class="responsive" />
+	<h1>My app</h1>
+			<p> Lorem ipsum is placeholder text commonly used in the graphic, print,
+				and publishing industries for previewing layouts and visual mockups. 
+			</p>
+			<br>
+			<button class="button">Test Now</button>
+		</center>
+	</div>
+	</section>
+
+	<section class="second">
+		<div>
+			<div class="row">
+				<br>
+			<center><h2>My List</h2>
+				  <div class="column">
+				<div class="textbox">
+					<img src="https://www.svgrepo.com/show/26996/avatar.svg" alt="alt-avatar" class="girl" />
+				<font size="4" color="white"><p><b>My First Thing</b></font></p>
+						<p>Lorem ipsum is placeholder text commonly used in the graphic,
+						print, and publishing industries for previewing layouts and
+						visual mockups.</p>
+					
+					<p style="text-align: right;padding-right: 35px"><font size="2" color="white">01/01/2020</p></font>
+					</div>
+			</div>
+				  <div class="column">
+				  	<div class="textbox">
+				  		<img src="https://www.svgrepo.com/show/26996/avatar.svg" alt="alt-avatar" class="girl"  />
+				<font size="4" color="white"><p><b>My Second Thing</b></font></p>
+				<p>
+					Lorem ipsum is placeholder text commonly used in the graphic,
+					print, and publishing industries for previewing layouts and
+					visual mockups.
+				</p>
+				<p style="text-align: right;padding-right: 35px"><font size="2" color="white">01/01/2020</p>
+				</font>
+			</div>
+		</div>
+						  <div class="column">
+				<div class="textbox">
+					<img src="https://www.svgrepo.com/show/26996/avatar.svg" alt="alt-avatar" class="girl" />
+					<font size="4" color="white"><p><b>My First Thing</b></font></p>
+					<p>
+						Lorem ipsum is placeholder text commonly used in the graphic,
+						print, and publishing industries for previewing layouts and
+						visual mockups.
+					</p>
+					<p style="text-align: right;padding-right: 35px"><font size="2" color="white">01/01/2020</p>
+					</div></font>
+			</div>
+				  <div class="column">
+				  	<div class="textbox">
+				  		<img src="https://www.svgrepo.com/show/26996/avatar.svg" alt="alt-avatar" class="girl"  />
+				<font size="4" color="white"><p><b>My Second Thing</b></font></p>
+				<p>
+					Lorem ipsum is placeholder text commonly used in the graphic,
+					print, and publishing industries for previewing layouts and
+					visual mockups.
+				</p></font>
+				<p style="text-align: right;padding-right: 35px"><font size="2" color="white">01/01/2020</p>
+			</font>
+			</div>
+		</div>
+				  <div class="column">
+				<div class="textbox">
+					<img src="https://www.svgrepo.com/show/26996/avatar.svg" alt="alt-avatar" class="girl" />
+				    <font size="4" color="white"><p><b>My First Thing</b></font></p>
+					<p>
+						Lorem ipsum is placeholder text commonly used in the graphic,
+						print, and publishing industries for previewing layouts and
+						visual mockups.
+					</p>
+					<p style="text-align: right;padding-right: 35px"><font size="2" color="white">01/01/2020</p></font>
+					</div>
+			</div>
+				  <div class="column">
+				  	<div class="textbox">
+				  		<img src="https://www.svgrepo.com/show/26996/avatar.svg" alt="alt-avatar" class="girl"  />
+				<font size="4" color="white"><p><b>My Second Thing</b></font></p>
+				<p>
+					Lorem ipsum is placeholder text commonly used in the graphic,
+					print, and publishing industries for previewing layouts and
+					visual mockups.
+				</p>
+				<p style="text-align: right;padding-right: 35px"><font size="2" color="white">01/01/2020</font></p>
+			</div>
+		</div>
+			</div>
+			<center>
+				<br>
+			<button class="button2">Test Now</button>
+			<br><br>
+</center>
+		</div>
+	</section>
+</body>
+</html>
